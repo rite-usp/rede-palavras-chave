@@ -37,7 +37,7 @@ html,body {
 	width: 100%;
 	height: 88%;
 	top: 0;
-	left: 0;
+	left: 65px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -56,7 +56,7 @@ figure.baner img {
 
 figure.baner {
 	position: absolute;
-	top: 500px;
+	top: 400px;
 	left: 20px;
 }
 
