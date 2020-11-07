@@ -36,7 +36,7 @@ html,body {
 
 .sigma-expand {
 	position: fixed;
-	width: 3000px;
+	width: 1500px;
 	height: 1500px;
 	top: -650px;
 
@@ -62,8 +62,8 @@ logo.baner img {
 
 figure.baner {
 	position: absolute;
-	top: 425px;
-	left: 15px;
+	top: 450px;
+	left: 20px;
 }
 
 
