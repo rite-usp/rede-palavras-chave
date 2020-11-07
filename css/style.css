@@ -62,7 +62,7 @@ logo.baner img {
 
 figure.baner {
 	position: absolute;
-	top: 450px;
+	top: 400px;
 	left: 20px;
 }
 
@@ -484,7 +484,7 @@ display: none;
 	z-index:999;
 	position: fixed;
 	left: 45%;
-	bottom: 120px;
+	bottom: 200px;
 	margin:0 auto;
 	padding: 0;
 	-webkit-touch-callout: none;
