@@ -36,7 +36,7 @@ html,body {
 
 .sigma-expand {
 	position: fixed;
-	width: 2500px;
+	width: 3000px;
 	height: 1500px;
 	top: -650px;
 
@@ -62,7 +62,7 @@ logo.baner img {
 
 figure.baner {
 	position: absolute;
-	top: 400px;
+	top: 450px;
 	left: 20px;
 }
 
@@ -247,9 +247,10 @@ display: none;
 }
 
 #mainpanel {
-left:200px;
-width: 300px;
-height: auto;
+top:0px;
+left:20px;
+width: 226px;
+height: 0px;
 background:#fff;
 background-color:rgba(255,255,255,0.8);
 border:1px solid #ccc;
@@ -264,7 +265,7 @@ padding: 0px 0 0px 0;
 
 #mainpanel .col {
 width: 240px;
-padding: 18px 18px 18px 18px;
+padding: 0px 0px 0px 0px;
 margin: 0;
 
 }
@@ -284,13 +285,13 @@ padding: 6px 0 10px 0;
 
 #search {
 	
-	padding: 0 0 0 6px;
+	padding: 0 0 0 0px;
 }
 
 #search input[name=search] {
 
 background-color: #fff;
-padding: 5px 7px 4px 7px;
+padding: 0px 0px 0px 0px;
 width: 205px;
 color: #000;
 }
@@ -300,8 +301,8 @@ color: #000;
 }
 
 #search .state {
-width: 14px;
-height: 14px;
+width: 0px;
+height: 0px;
 
 float: right;
 margin-top: 6px;
@@ -335,7 +336,7 @@ color: #000;
 }
 
 #search .results a:hover {
-background-color: #999;
+background-color: #fff;
 color: #fff;
 }
 
@@ -354,7 +355,7 @@ user-select: none;
 	padding: 5px 7px 4px 7px;
 	color: #fff;
 	cursor: pointer;
-	background-color: #999;
+	background-color: #292929;
 	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 200px -144px;
@@ -369,16 +370,16 @@ background-position: 200px -8px;
 	border: 1px solid 
 	#999;
 	padding: 6px;
-	height: 150px;
-	width: 226px;
+	height: auto;
+	width: 223px;
 	
-	background-color: #999;
+	background-color: #292929;
 	/*position: relative;
 		left: 240px;
 		bottom: 164px;*/
 	position:absolute;
 	height: auto;
-	width: auto;
+	width: 212px;
 	color: white;
 }	
 
@@ -404,12 +405,12 @@ padding-top: 1em;
 }
 
 #mainpanel h2 {
-	font-size:14px;
+	font-size:0px;
 }
 
 #mainpanel dt {
-width: 20px;
-height: 20px;
+width: 0px;
+height: 0px;
 float: left;
 background-repeat: no-repeat;
 
@@ -428,7 +429,7 @@ color: #000;
 }
 
 #mainpanel .infos dd {
-margin-bottom: 12px;
+margin-bottom: 0px;
 }
 
 #mainpanel .node {
@@ -483,7 +484,7 @@ display: none;
 	z-index:999;
 	position: fixed;
 	left: 45%;
-	bottom: 25px;
+	bottom: 120px;
 	margin:0 auto;
 	padding: 0;
 	-webkit-touch-callout: none;
