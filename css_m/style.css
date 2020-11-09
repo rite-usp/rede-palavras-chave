@@ -1,0 +1,52 @@
+* {
+padding: 0px;
+margin: 0px;
+
+}
+
+.cf:before, .cf:after {
+	content: "";
+	display: block;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	zoom: 1;
+}
+
+html,body {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color: #fff1ca;
+	
+}
+
+.sigma-parent {
+
+	height: 100%;
+	width:100%;
+	
+	
+}
+
+.sigma-expand {
+	
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+
+img{
+	max-width:100%;
+	height:100%;
+	
+}
